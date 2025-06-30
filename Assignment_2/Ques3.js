@@ -22,5 +22,4 @@ function findTax(salary) {
   return tax;
 }
 
-// Example:
-console.log(findTax(750000)); // 75000
+console.log(findTax(750000));
