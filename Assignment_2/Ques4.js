@@ -1,3 +1,5 @@
+// find the sum of the products of their corresponding digits
+
 function sumOfProduct(n1, n2) {
   let str1 = n1.toString().split('').reverse();
   let str2 = n2.toString().split('').reverse();
@@ -13,6 +15,5 @@ function sumOfProduct(n1, n2) {
   return sum;
 }
 
-// Example:
-console.log(sumOfProduct(6, 34)); // (6*4) + (0*3) = 24
-console.log(sumOfProduct(123, 456)); // (3*6)+(2*5)+(1*4) = 18 + 10 + 4 = 32
+console.log(sumOfProduct(6, 34)); 
+console.log(sumOfProduct(123, 456)); 

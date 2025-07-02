@@ -1,3 +1,5 @@
+// Function to calculate the tax amount
+
 function findTax(salary) {
   let taxRate;
 
@@ -22,4 +24,4 @@ function findTax(salary) {
   return tax;
 }
 
-console.log(findTax(750000));
+console.log(findTax(1200000));

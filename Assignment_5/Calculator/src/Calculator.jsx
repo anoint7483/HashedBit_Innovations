@@ -37,7 +37,7 @@ const Calculator = () => {
   };
 
   return (
-    <div style={{ padding: "20px", fontFamily: "Arial", maxWidth: "400px" }}>
+    <div style={{padding: "20px", fontFamily: "Arial", maxWidth: "400px",}}>
       <h2>React Calculator</h2>
       <input
         type="number"

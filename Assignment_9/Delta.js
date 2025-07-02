@@ -1,4 +1,3 @@
-// JS Practice 1 - Delta
 
 // 1. Variable Scope: var, let, const
 function variableScopeDemo() {

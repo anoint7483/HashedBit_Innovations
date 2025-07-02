@@ -7,4 +7,4 @@ function repeatedDigitSum(num) {
   return num;
 }
 
-console.log(repeatedDigitSum(456));  // Output: 6
+console.log(repeatedDigitSum(456));  
