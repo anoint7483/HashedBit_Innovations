@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dark Theme Toggle</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      transition: background 0.5s, color 0.5s;
+    }
+
+    .dark-theme {
+      background-color: #121212;
+      color: #f1f1f1;
+    }
+
+    .btn {
+      margin: 20px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .light-btn {
+      background-color: #ffffff;
+      color: #121212;
+      border: 1px solid #ccc;
+    }
+
+    .dark-btn {
+      background-color: #333333;
+      color: #ffffff;
+      border: 1px solid #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello</h1>
+  <button class="btn light-btn" id="toggleThemeBtn">Switch to Dark Mode</button>
+
+  <script>
+    const button = document.getElementById("toggleThemeBtn");
+
+    button.addEventListener("click", function () {
+      document.body.classList.toggle("dark-theme");
+
+      const isDark = document.body.classList.contains("dark-theme");
+
+      // Change button style and text
+      if (isDark) {
+        button.textContent = "Switch to Light Mode";
+        button.classList.remove("light-btn");
+        button.classList.add("dark-btn");
+      } else {
+        button.textContent = "Switch to Dark Mode";
+        button.classList.remove("dark-btn");
+        button.classList.add("light-btn");
+      }
+    });
+  </script>
+</body>
+</html>

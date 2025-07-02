@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hide Show Paragraph</title>
+  <style>
+    .hidden {
+      display: none;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      margin-top: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hide Show Paragraph</h1>
+
+  <script>
+    const para = document.createElement("p");
+    para.textContent = "This is a paragraph that will be hidden or shown.";
+    para.id = "myPara";
+    document.body.appendChild(para);
+
+    const button = document.createElement("button");
+    button.textContent = "Hide";
+    button.className = "btn";
+    document.body.appendChild(button);
+
+    button.addEventListener("click", () => {
+      if (para.style.display === "none") {
+        para.style.display = "block";
+        button.textContent = "Hide";
+      } else {
+        para.style.display = "none";
+        button.textContent = "Show";
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS DOM - Div Creation</title>
+  <style>
+    .custom-div {
+      background-color: #f0f0f0;
+      color: #333;
+      padding: 20px;
+      margin: 20px;
+      border: 2px solid #555;
+      border-radius: 8px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Div Creation</h1>
+  <button onclick="createDiv()">Create New Div</button>
+
+  <script>
+    function createDiv() {
+      const newDiv = document.createElement("div");
+
+      newDiv.textContent = "This is a new div";
+
+      newDiv.classList.add("custom-div");
+
+      document.body.appendChild(newDiv);
+    }
+  </script>
+</body>
+</html>

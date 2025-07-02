@@ -1,0 +1,82 @@
+[
+  {
+    "team": "Gujarat Titans",
+    "matches": 14,
+    "won": 10,
+    "lost": 4,
+    "points": 20,
+    "nrr": "0.316"
+  },
+  {
+    "team": "Rajasthan Royals",
+    "matches": 14,
+    "won": 9,
+    "lost": 5,
+    "points": 18,
+    "nrr": "0.298"
+  },
+  {
+    "team": "Lucknow Super Giants",
+    "matches": 14,
+    "won": 9,
+    "lost": 5,
+    "points": 18,
+    "nrr": "0.251"
+  },
+  {
+    "team": "Royal Challengers Bangalore",
+    "matches": 14,
+    "won": 8,
+    "lost": 6,
+    "points": 16,
+    "nrr": "-0.253"
+  },
+  {
+    "team": "Delhi Capitals",
+    "matches": 14,
+    "won": 7,
+    "lost": 7,
+    "points": 14,
+    "nrr": "0.204"
+  },
+  {
+    "team": "Punjab Kings",
+    "matches": 14,
+    "won": 7,
+    "lost": 7,
+    "points": 14,
+    "nrr": "0.126"
+  },
+  {
+    "team": "Kolkata Knight Riders",
+    "matches": 14,
+    "won": 6,
+    "lost": 8,
+    "points": 12,
+    "nrr": "0.146"
+  },
+  {
+    "team": "Sunrisers Hyderabad",
+    "matches": 14,
+    "won": 6,
+    "lost": 8,
+    "points": 12,
+    "nrr": "-0.379"
+  },
+  {
+    "team": "Chennai Super Kings",
+    "matches": 14,
+    "won": 4,
+    "lost": 10,
+    "points": 8,
+    "nrr": "-0.203"
+  },
+  {
+    "team": "Mumbai Indians",
+    "matches": 14,
+    "won": 4,
+    "lost": 10,
+    "points": 8,
+    "nrr": "-0.506"
+  }
+]

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dynamic CSS</title>
+</head>
+<body>
+  <h1>Dynamic CSS Styling via JavaScript</h1>
+
+  <button onclick="applyStyle()">Apply CSS Style</button>
+
+  <div id="box">
+    This box will get styled.
+  </div>
+
+  <script>
+    function applyStyle() {
+      const box = document.getElementById("box");
+
+      box.style.backgroundColor = "blue";
+      box.style.color = "white";
+      box.style.padding = "20px";
+      box.style.marginTop = "20px";
+      box.style.border = "2px solid orange";
+      box.style.borderRadius = "8px";
+      box.style.fontSize = "18px";
+    }
+  </script>
+</body>
+</html>
