@@ -8,7 +8,7 @@ function BookingSuccess() {
 
   return (
     <div style={{ textAlign: 'center' }}>
-      <h2>✅ Seat Booked Successfully!</h2>
+      <h2>Seat Booked Successfully!</h2>
       <p><strong>Booking ID:</strong> #{state.bookingId}</p>
       <p><strong>Name:</strong> {state.name}</p>
       <p><strong>Email:</strong> {state.email}</p>
